@@ -1,11 +1,11 @@
 Package: testpkg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Dummy Package for Testing Purposes
 Version: 0.0-0
 Date: 2015-05-11
 Author: Facundo Muñoz
-Maintainer: "Facundo Muñoz <facundo.munoz@orleans.inra.fr> [aut, cre]"
-Description: More about what it does (maybe more than one line)
+Maintainer: Facundo Muñoz <facundo.munoz@orleans.inra.fr>
+Description: Package skeleton useful for quickly testing and debugging packaging issues.
 License: GPL (>= 3)
 LazyData: TRUE
 Encoding: UTF-8
