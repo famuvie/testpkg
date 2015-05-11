@@ -2,11 +2,13 @@
 #'
 #' @examples check_aireml()
 check_aireml <- function() {
-  bin.fname <- system.file('bin', 'linux', package='breedR')
+  bin.fname <- system.file('bin', 'linux', package='testpkg')
   fe <- file.exists(bin.fname)
 
   bin.call <- file.path(bin.fname, 'airemlf90')
-  out <- system2(bin.call, input = 'parameters')
+  debug = FALSE
+  out <- system2(bin.call, input = 'parameters',
+                 stdout = ifelse(debug, '', TRUE))
 
   ## Cleanup
   unlink(c('parameters', 'airemlf90.log'))
