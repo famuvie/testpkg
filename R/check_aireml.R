@@ -9,6 +9,6 @@ check_aireml <- function() {
   out <- system2(bin.call, input = 'parameters')
 
   ## Cleanup
-  unlink('parameters')
+  unlink(c('parameters', 'airemlf90.log'))
   return(fe)
 }
