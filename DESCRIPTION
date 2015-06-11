@@ -7,5 +7,6 @@ Author: Facundo Muñoz
 Maintainer: Facundo Muñoz <facundo.munoz@orleans.inra.fr>
 Description: Package skeleton useful for quickly testing and debugging packaging issues.
 License: GPL (>= 3)
+Imports: methods
 LazyData: TRUE
 Encoding: UTF-8
